@@ -1,0 +1,184 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* { box-sizing: border-box; }
+
+#site_path { margin: 0; }
+
+.container { max-width: none; padding: 0; }
+
+.contentBox { width: 100%; max-width: 1700px; padding: 0 40px; margin: 0 auto; }
+
+.methodBanner-pc { width: 100%;}
+
+.methodBanner-m { width: 100%; display: none; }
+
+.method_mainTitle-1 { width: 402px; margin: 65px 0 61px; }
+
+.method_pic { padding: 0 50px; margin-bottom: 93px; }
+
+.method_pic img { width: 100%; }
+
+.method_flow_title { width: 300px; margin-bottom: 171px; }
+
+.method_flow_item { display: flex; flex-wrap: wrap; align-items: center; }
+
+.method_flow_item_pic { width: 50%; }
+
+.method_flow_item_pic img { width: 266px; display: block; margin: 0 auto 19px; }
+
+.method_flow_item_pic p { margin: 0; color: #565656; font-size: 28px; font-weight: 300; text-align: center; }
+
+.method_flow_item_text { width: 50%; padding-left: 87px; }
+
+.method_flow_stepTitle { display: flex; align-items: center; margin-bottom: 26px; }
+
+.method_flow_stepTitle span { font-size: 26px; margin-right: 27px; transform: translateY(7px); font-family: "Helvetica Neue"; }
+
+.method_flow_stepTitle img { width: 180px; }
+
+.method_flow_intro { font-size: 36px; font-weight: 300; margin: 0 0 17px; }
+
+.method_flow_detail { color: #565656; font-size: 24px; font-weight: 300; margin: 0; line-height: 1.7; letter-spacing: 0.05em; }
+
+.method_flow_arrow { width: 45px; display: block; margin: 81px auto; }
+
+.method_test { display: flex; flex-wrap: wrap; align-items: center; margin: 170px 0 220px; }
+
+.method_test_pic { width: 50%; padding-left: 149px; }
+
+.method_test_pic img { width: 85%; display: block; margin: 0 auto; }
+
+.method_test_text { width: 50%; padding-left: 144px; }
+
+.method_test_text img { width: 504px; margin-bottom: 62px; }
+
+.method_test_text p { font-size: 32px; font-weight: 300; line-height: 1.7; letter-spacing: 0.05em; margin: 0; }
+
+.method_equip { padding: 168px 0 41px; background-color: #F3EEE7; }
+
+.method_equip .contentBox { display: flex; flex-wrap: wrap; }
+
+.method_equip_item { width: 33.3333%; padding: 0 25px; margin-bottom: 127px; }
+
+.method_equip_item_inner { height: 100%; background-color: #fff; }
+
+.method_equip_pic { position: relative; width: 100%; padding-bottom: 100%; }
+
+.method_equip_pic img { width: 100%; height: 100%; position: absolute; object-fit: cover; top: 0; left: 0; }
+
+.method_equip_text { padding: 15px 25px 45px; }
+
+.method_equip_text h5 { font-weight: 300; font-size: 30px; margin: 0 0 8px; }
+
+.method_equip_text p { color: #565656; font-size: 20px; font-weight: 300; margin: 0; }
+
+.method_certify { padding: 76px 0 166px; }
+
+.method_certify_title { width: 317px; margin-bottom: 152px; }
+
+.method_certify_content { padding: 0 38px; display: flex; align-items: flex-end; flex-wrap: wrap; justify-content: center; }
+
+.method_certify_item { width: 19%; padding: 0 29px; }
+
+.method_certify_item:first-child { width: 24%; }
+
+.method_certify_item img { width: 100%; margin-bottom: 19px; }
+
+.method_certify_item p { text-align: center; margin: 0; font-size: 20px; font-weight: 300; color: #565656; }
+
+@media screen and (max-width:1600px) {
+    .method_flow_item_pic img { width: 200px; }
+    .method_flow_item_pic p { font-size: 24px; }
+    .method_flow_stepTitle { margin-bottom: 20px; }
+    .method_flow_stepTitle span { font-size: 22px; }
+    .method_flow_stepTitle img { width: 150px; }
+    .method_flow_intro { font-size: 28px; margin-bottom: 13px; }
+    .method_flow_detail { font-size: 18px; }
+    .method_flow_arrow { margin: 60px auto; width: 30px; }
+    .method_test_pic { width: 45%; padding-left: 70px; }
+    .method_test_text { width: 55%; }
+    .method_test_text img { width: 450px; margin-bottom: 40px; }
+    .method_test_text p { font-size: 30px; }
+    .method_certify_title { margin-bottom: 120px; }
+    .method_certify_content { padding: 0; }
+    .method_certify_item { padding: 0 15px; }
+    .method_certify_item p { font-size: 17px; }
+    
+}
+
+@media screen and (max-width:1300px) {
+    .method_flow_item_pic { width: 40%; }
+    .method_test_pic img { width: 90%; }
+    .method_flow_item_text { width: 60%; padding-left: 20px; }
+    .method_test_text { padding-left: 70px; }
+    .method_test_text img { width: 350px; margin-bottom: 30px; }
+    .method_test_text p { font-size: 26px; }
+    .method_equip_item { padding: 0 15px; }
+    .method_equip_text h5 { font-size: 28px; }
+    .method_equip_text p { font-size: 18px; }
+}
+
+@media screen and (max-width:992px) {
+    .method_mainTitle-1 { width: 300px; }
+    .method_pic { padding: 0; margin-bottom: 70px; }
+    .method_flow_title { width: 224px; margin-bottom: 130px; }
+    .method_flow_item_pic { width: 100%; }
+    .method_flow_item_text { width: 100%; padding: 47px 0 0; }
+    .method_flow_item_text_inner { width: fit-content; margin: 0 auto; }
+    .method_test_pic { width: 100%; padding: 0; margin-bottom: 68px; }
+    .method_test_pic img { width: 330px; }
+    .method_test_text { width: 100%; padding: 0; }
+    .method_test_text_inner { width: fit-content; margin: 0 auto; }
+    .method_equip_item { width: 50%; margin-bottom: 70px; }
+    .method_certify { padding-bottom: 0px; }
+    .method_certify_title { width: 237px; margin-bottom: 100px; }
+    .method_certify_item { width: 31%; margin-bottom: 100px; }
+    .method_certify_item:first-child { width: 38%; }
+}
+
+@media screen and (max-width:768px) {
+    .method_equip { padding: 50px 0 0; }
+    .method_equip_text { padding: 15px 15px 30px; }
+    .method_equip_text h5 { font-size: 23px; }
+    .method_certify { padding-top: 66px; }
+    .method_certify_title { margin-bottom: 60px; }
+    .method_certify_item { width: 100% !important; margin-bottom: 27px; }
+    .method_certify_item img { max-width: 238px; display: block; margin: 0 auto 19px; }
+    .method_certify_item:first-child img { max-width: 325px; }
+}
+
+@media screen and (max-width:576px) {
+    .contentBox { padding: 0 20px; }
+    .methodBanner-pc { display: none; }
+    .methodBanner-m { display: block; }
+    .method_mainTitle-1 { margin: 47px 0; width: 250px; }
+    .method_pic .contentBox { max-width: none; padding: 0; }
+    .method_flow_title { margin-bottom: 65px; }
+    .method_flow_item_pic p { font-size: 21px; }
+    .method_flow_stepTitle span { font-size: 17px; margin-right: 20px; }
+    .method_flow_stepTitle img { width: 128px; }
+    .method_flow_intro { font-size: 24px; }
+    .method_flow_arrow { margin: 53px auto; }
+    .method_flow_intro br { display: none; }
+    .method_flow_detail br { display: none; }
+    .method_test_text p { font-size: 22px; }
+    .method_test { margin-top: 100px; margin-bottom: 80px; }
+    .method_equip { padding-bottom: 40px; }
+    .method_equip_item { width: 100%; margin-bottom: 20px; padding: 0; }
+    
+}
+
+@media screen and (max-width:400px) {
+    .method_test_pic { padding: 0 27px; margin-bottom: 50px; }
+    .method_test_pic img { width: 100%; }
+    .method_test_text img { width: 300px; }
+    .method_test_text p { font-size: 20px; }
+}
+
+@media screen and (max-width:350px) {
+    .method_test_text img { width: 280px; margin-bottom: 20px; }
+    .method_test_text p { font-size: 18px; }
+}

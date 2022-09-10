@@ -1,0 +1,119 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* { box-sizing: border-box; }
+
+#site_path { margin: 0; }
+
+.container { max-width: none; padding: 0; }
+
+.contentBox { width: 100%; max-width: 1700px; padding: 0 40px; margin: 0 auto; }
+
+.aboutBanner-pc { width: 100%;}
+
+.aboutBanner-m { width: 100%; display: none; }
+
+.aboutMainTitle-1 { width: 303px; display: block; margin: 65px 0 133px; }
+
+.about_mud { margin-bottom: 188px; }
+
+.about_mud .contentBox { display: flex; align-items: center; flex-wrap: wrap; }
+
+.about_mud_pic { width: 50%; padding-right: 45px; }
+
+.about_mud_pic img { width: 100%; }
+
+.about_mud_m { display: none; }
+
+.about_mud_text { width: 50%; padding-left: 45px; }
+
+.about_mud_text img { width: 550px; display: block; margin-bottom: 43px; }
+
+.about_mud_text p { position: relative; padding-top: 20px; color: #565656; font-size: 23px; font-weight: 300; margin: 0; letter-spacing: 0.15em; line-height: 1.6; text-align: justify; }
+
+.about_mud_text p:before { width: 103px; height: 2px; background-color: #707070; position: absolute; content: ""; top: 0; left: 0; }
+
+.about_paddy { margin-bottom: 164px; }
+
+.about_paddy img { width: 100%; }
+
+.about_paddy_m { display: none; }
+
+.about_farmer { margin-bottom: 80px; }
+
+.about_farmer .contentBox { display: flex; flex-wrap: wrap; align-items: center; }
+
+.about_farmer_text { width: 50%; }
+
+.about_farmer_text img { width: 596px; margin-bottom: 60px; }
+
+.about_farmer_text p { position: relative; padding-top: 47px; color: #565656; font-size: 23px; font-weight: 300; margin: 0; letter-spacing: 0.15em; line-height: 1.6; text-align: justify; }
+
+.about_farmer_text p:before { width: 103px; height: 2px; background-color: #707070; position: absolute; content: ""; top: 0; left: 0; }
+
+.about_farmer_pic { width: 50%; padding-left: 155px; padding-right: 57px; }
+
+.about_farmer_pic img { width: 100%; }
+
+
+@media screen and (max-width:1600px) {
+    .about_mud_pic { padding-right: 25px; }
+    .about_mud_text { padding-left: 25px; }
+    .about_mud_text img { width: 480px; margin-bottom: 30px; }
+    .about_mud_text p { font-size: 20px; }
+    .about_farmer_text img { width: 480px; margin-bottom: 30px; }
+    .about_farmer_text p { font-size: 20px; padding-top: 30px; }
+}
+
+@media screen and (max-width:1400px) {
+    .aboutMainTitle-1 { margin: 40px 0 70px; }
+    .about_mud_text img { width: 432px; }
+    .about_mud_text p { font-size: 18px; }
+    .about_farmer_text img { width: 432px; }
+    .about_farmer_text p { font-size: 18px; }
+}
+
+@media screen and (max-width:1200px) {
+    .about_farmer_pic { padding-left: 70px; padding-right: 25px; }
+}
+
+@media screen and (max-width:992px) {
+    .about_mud { margin-bottom: 90px; }
+    .about_mud .contentBox { max-width: none; padding: 0; }
+    .about_mud_pic { width: 100%; padding-right: 0; }
+    .about_mud_pc { display: none; }
+    .about_mud_m { display: block; }
+    .about_mud_text { width: 100%; padding: 47px 22px 0; }
+    .about_mud_text img { margin-bottom: 42px; }
+    .about_mud_text p { padding-top: 42px; }
+    .about_paddy { margin-bottom: 80px; }
+    .about_paddy .contentBox { max-width: none; padding: 0; }
+    .about_paddy_pc { display: none; }
+    .about_paddy_m { display: block; }
+    .about_farmer .contentBox { padding: 22px; }
+    .about_farmer_pic { width: 100%; padding: 0 27px; }
+    .about_farmer_text { width: 100%; padding: 0 0 74px; }
+}
+
+@media screen and (max-width:576px) {
+    .contentBox { padding: 0 20px; }
+    .aboutBanner-pc { display: none; }
+    .aboutBanner-m { display: block; }
+    .aboutMainTitle-1 { width: 232px; margin-bottom: 47px; }
+    .about_mud_text img { width: 341px; margin-bottom: 30px; }
+    .about_mud_text p { font-size: 16px; padding-top: 30px; }
+    .about_farmer_text img { width: 341px; margin-bottom: 30px; }
+    .about_farmer_text p { font-size: 16px; padding-top: 30px; }
+}
+
+@media screen and (max-width:400px) {
+    .aboutMainTitle-1 { width: 200px; }
+    .about_mud_text img { width: 280px; }
+    .about_mud_text p { font-size: 15px; }
+    .about_mud_text p:before { width: 85px; }
+    .about_farmer_text img { width: 280px; }
+    .about_farmer_text p { font-size: 15px; }
+    .about_farmer_text p:before { width: 85px; }
+}
